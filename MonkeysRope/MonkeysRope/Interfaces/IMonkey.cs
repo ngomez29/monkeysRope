@@ -2,6 +2,9 @@
 {
     public interface IMonkey
     {
+        /// <summary>
+        /// Move monkeys
+        /// </summary>
         void MoveForward();
     }
 }

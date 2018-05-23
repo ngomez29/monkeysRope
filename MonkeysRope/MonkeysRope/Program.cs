@@ -9,6 +9,11 @@ namespace MonkeysRope
     static class Program
     {
         /// <summary>
+        /// Variable to handle form globally 
+        /// </summary>
+        public static Form1 mainForm;
+
+        /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
@@ -16,7 +21,8 @@ namespace MonkeysRope
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            mainForm = new Form1();
+            Application.Run(mainForm);
         }
     }
 }
