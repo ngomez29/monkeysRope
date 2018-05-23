@@ -14,7 +14,7 @@ namespace MonkeysRope.Interfaces
         /// </summary>
         /// <param name="monkey"></param>
         /// <returns></returns>
-        Direccion GetDireccion(Monkey monkey);
+        Direction GetDirection(Monkey monkey);
 
         /// <summary>
         /// Get Allowed Monkeys Crossing at same time

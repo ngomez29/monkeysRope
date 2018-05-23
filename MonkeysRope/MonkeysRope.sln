@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeysRope", "MonkeysRope\MonkeysRope.csproj", "{3047CBB7-060C-4CFB-8ED4-C645E6759106}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectMonkeys", "UnitTestProjectMonkeys\UnitTestProjectMonkeys.csproj", "{0DCD4E9E-7E3F-4030-9C37-E31F2695602B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3047CBB7-060C-4CFB-8ED4-C645E6759106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3047CBB7-060C-4CFB-8ED4-C645E6759106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3047CBB7-060C-4CFB-8ED4-C645E6759106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCD4E9E-7E3F-4030-9C37-E31F2695602B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCD4E9E-7E3F-4030-9C37-E31F2695602B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCD4E9E-7E3F-4030-9C37-E31F2695602B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCD4E9E-7E3F-4030-9C37-E31F2695602B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

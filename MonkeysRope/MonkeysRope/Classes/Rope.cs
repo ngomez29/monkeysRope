@@ -8,7 +8,7 @@ namespace MonkeysRope.Classes
 
         const int MAX_ALLOWED = 3;
 
-        public Direccion currentDirection { get; set; }
+        public Direction currentDirection { get; set; }
 
         public int MonkeysInProgress { get; set; }
 
@@ -28,15 +28,15 @@ namespace MonkeysRope.Classes
             return MAX_ALLOWED;
         }
 
-        public Direccion GetDireccion(Monkey monkey)
+        public Direction GetDirection(Monkey monkey)
         {
-            if (currentDirection == Direccion.Undefined)
+            if (currentDirection == Direction.Undefined)
             {
                 currentDirection = monkey.Side;
             }
             else
             {
-                currentDirection = currentDirection.Equals(Direccion.Right) ? Direccion.Left : Direccion.Right;
+                currentDirection = currentDirection.Equals(Direction.Right) ? Direction.Left : Direction.Right;
             }
             return currentDirection;
         }

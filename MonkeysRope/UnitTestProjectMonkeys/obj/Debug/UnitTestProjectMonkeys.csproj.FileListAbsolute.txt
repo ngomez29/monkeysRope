@@ -1,0 +1,16 @@
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\obj\Debug\UnitTestProjectMonkeys.csprojResolveAssemblyReference.cache
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\obj\Debug\UnitTestProjectMonkeys.csproj.CoreCompileInputs.cache
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\UnitTestProjectMonkeys.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\UnitTestProjectMonkeys.pdb
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\MonkeysRope.exe
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\MonkeysRope.pdb
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\MonkeysRope.exe.config
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\obj\Debug\UnitTestProjectMonkeys.dll
+C:\Users\ngome\Source\Repos\MonkeysRope\MonkeysRope\UnitTestProjectMonkeys\obj\Debug\UnitTestProjectMonkeys.pdb

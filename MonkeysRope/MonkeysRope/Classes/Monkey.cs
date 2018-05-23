@@ -6,7 +6,7 @@ namespace MonkeysRope.Classes
 {
     public class Monkey : IMonkey
     {
-        public Direccion Side { get; set; }
+        public Direction Side { get; set; }
         public Guid ID { get; set; }
         public string Status { get; set; }
 
@@ -15,24 +15,18 @@ namespace MonkeysRope.Classes
         /// </summary>
         public void MoveForward()
         {
-            var to = Side.Equals(Direccion.Right) ? Direccion.Left : Direccion.Right;
-
+            var to = Side.Equals(Direction.Right) ? Direction.Left : Direction.Right;
+            Thread.Sleep(new TimeSpan(0, 0, 1));
             Status = State.Start.ToString() + ",";
             SetTextOnUI($"{Thread.CurrentThread.Name} enters the rope moving to: {to}");
-            Thread.Sleep(new TimeSpan(0, 0, 1));
-
+            
             Status += State.Moving.ToString() + ",";
             SetTextOnUI($"{Thread.CurrentThread.Name} 1/4 of the way across the rope");
-            Thread.Sleep(new TimeSpan(0, 0, 1));
-
             SetTextOnUI($"{Thread.CurrentThread.Name} is in the middle of the rope");
-            Thread.Sleep(new TimeSpan(0, 0, 1));
-
             SetTextOnUI($"{Thread.CurrentThread.Name} 3/4 way across the rope");
-            Thread.Sleep(new TimeSpan(0, 0, 1));
-
-            Status += State.Finish.ToString();
             SetTextOnUI($"{Thread.CurrentThread.Name} is off the rope." + Environment.NewLine);
+            Status += State.Finish.ToString();
+            Thread.Sleep(new TimeSpan(0, 0, 3));
 
         }
 

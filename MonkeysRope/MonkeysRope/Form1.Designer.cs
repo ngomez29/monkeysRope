@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnLeft = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -35,8 +36,9 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtLog = new System.Windows.Forms.TextBox();
             this.btnStart = new System.Windows.Forms.Button();
-            this.bw = new System.ComponentModel.BackgroundWorker();
             this.btnClear = new System.Windows.Forms.Button();
+            this.tStart = new System.Windows.Forms.Timer(this.components);
+            this.btnStop = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -60,6 +62,7 @@
             this.btnLeft.TabIndex = 2;
             this.btnLeft.Text = "Add Monkey";
             this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
             // 
             // groupBox2
             // 
@@ -79,6 +82,7 @@
             this.btnRight.TabIndex = 1;
             this.btnRight.Text = "Add Monkey";
             this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
             // groupBox3
             // 
@@ -99,11 +103,10 @@
             this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtLog.Size = new System.Drawing.Size(763, 283);
             this.txtLog.TabIndex = 5;
-            this.txtLog.Text = "Rope is free";
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(549, 157);
+            this.btnStart.Location = new System.Drawing.Point(549, 101);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 41);
             this.btnStart.TabIndex = 11;
@@ -119,12 +122,28 @@
             this.btnClear.TabIndex = 12;
             this.btnClear.Text = "Clear Log";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // tStart
+            // 
+            this.tStart.Tick += new System.EventHandler(this.tStart_Tick);
+            // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(549, 157);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(75, 41);
+            this.btnStop.TabIndex = 13;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1171, 748);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
@@ -149,8 +168,9 @@
         private System.Windows.Forms.GroupBox groupBox3;
         public System.Windows.Forms.TextBox txtLog;
         private System.Windows.Forms.Button btnStart;
-        public System.ComponentModel.BackgroundWorker bw;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Timer tStart;
+        private System.Windows.Forms.Button btnStop;
     }
 }
 
